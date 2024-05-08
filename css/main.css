@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(16, 16, 16);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+}
+img{
+    width: 400px;
+}
+header{
+    margin: 50px 0;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+h1, h4, h5{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    margin-bottom: 10px; 
+}
+h4{
+    margin-bottom: 5px;
+}
+.two-photos{
+    width: 70%;
+    margin: auto;
+}
+.first-line{
+    display: flex;
+}
+.img1-text{
+    padding-left: 50px;
+}
+.second-line{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img2-text{
+    padding-right: 50px;
+}
+
+footer{
+    margin: auto;
+    width: 70%;
+  font-family: "Ubuntu Sans", sans-serif;    /* same as header font */
+}
+footer p{
+    text-align: center;
+}
