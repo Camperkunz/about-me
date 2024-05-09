@@ -32,7 +32,7 @@ ul{
     display: flex;
 }
 li{
-    padding: 10px;
+    padding-left: 10px;
 }
 h2{
     font-size: 42px;
@@ -82,11 +82,15 @@ h3{
     background-color: #242424;
 }
 .facts-content{
+    display: flex;
+    justify-content: space-between;
     width: 70%;
     margin: auto;
-    display: flex;
-    gap: 5%;
     padding-bottom: 40px;
+    gap: 5%;
+}
+.facts-content div{
+    width: 300px;
 }
 .facts h2{
     margin: 0;
@@ -96,17 +100,20 @@ h3{
 .facts-content p{
     padding: 20px;
     background-color: #313131;
-    justify-content: center;
 }
-
-
 
 
 footer{
+    display: flex;
+    justify-content: space-between;
     margin: auto;
+    margin-bottom: 30px;
     width: 70%;
-  font-family: "Ubuntu Sans", sans-serif;    /* same as header font */
+    font-family: "Ubuntu Sans", sans-serif;    /* same as header font */
 }
 footer p{
-    text-align: center;
+    text-align: left;
+}
+.mail{
+    font-size: 18px;
 }
