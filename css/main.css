@@ -114,6 +114,6 @@ footer{
 footer p{
     text-align: left;
 }
-.mail{
-    font-size: 18px;
+footer dl{
+    font-size: 16px;
 }
