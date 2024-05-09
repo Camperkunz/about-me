@@ -6,43 +6,63 @@ body{
     font-weight: 400;
 }
 img{
-    width: 400px;
+    width: 300px;
 }
 header{
-    margin: 50px 0;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
     font-family: "Ubuntu Sans", sans-serif;
 }
-h1, h4, h5{
-    text-align: center;
-    margin: 0;
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-instagram, .fa-envelope{
+    color: white;
+    font-size: 32px;
 }
 h1{
-    margin-bottom: 10px; 
+    font-size: 36px;
 }
-h4{
-    margin-bottom: 5px;
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 10px;
+}
+.center-me{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%; 
+}
+.main-img img{
+    width: 500px;
+}
+.main-text{
+    margin: auto;
 }
 .two-photos{
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 .first-line{
     display: flex;
-}
-.img1-text{
-    padding-left: 50px;
+    gap: 5%;
 }
 .second-line{
     display: flex;
     flex-direction: row-reverse;
-}
-.img2-text{
-    padding-right: 50px;
+    gap: 5%;
 }
 
 footer{
     margin: auto;
-    width: 70%;
+    width: 60%;
   font-family: "Ubuntu Sans", sans-serif;    /* same as header font */
 }
 footer p{
