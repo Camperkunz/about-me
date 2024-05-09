@@ -1,15 +1,17 @@
 body{
-    background-color: rgb(16, 16, 16);
-    color: rgb(255, 255, 255);
+    background-color: #161616;
+    color: rgb(225, 225, 225);
     font-size: 22px;
     font-family: "Dosis", sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 img{
-    width: 300px;
+    width: 350px;
 }
 header{
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-top: 30px;
     font-family: "Ubuntu Sans", sans-serif;
@@ -18,12 +20,12 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.fa-instagram, .fa-envelope{
-    color: white;
+.fa-instagram, .fa-envelope{                      /* this is for icons */
+    color: rgb(225, 225, 225);           
     font-size: 32px;
 }
 h1{
-    font-size: 36px;
+    font-size: 32px;
 }
 ul{
     list-style: none;
@@ -32,37 +34,52 @@ ul{
 li{
     padding: 10px;
 }
+h2{
+    font-size: 42px;
+}
 .center-me{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: auto;
     gap: 5%;
-    margin-bottom: 10%;
-    margin-top: 5%; 
+    margin-bottom: 5%;
+    margin-top: 2%; 
 }
 .main-img img{
-    width: 500px;
+    width: 450px;
 }
 .main-text{
     margin: auto;
 }
 .two-photos{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 .first-line{
     display: flex;
+    flex-direction: row-reverse;
     gap: 5%;
 }
 .second-line{
     display: flex;
-    flex-direction: row-reverse;
     gap: 5%;
 }
-
+.my-story{
+    background-color:#1a1a1a;
+}
+.my-story h2{
+    text-align: center;
+    padding: 30px 0 50px 0;
+}
+h3{
+    font-size: 32px;
+}
+.img2-text h3{
+    text-align: right;
+}
 footer{
     margin: auto;
-    width: 60%;
+    width: 70%;
   font-family: "Ubuntu Sans", sans-serif;    /* same as header font */
 }
 footer p{
