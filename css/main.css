@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.fa-instagram, .fa-envelope{                      /* this is for icons */
+.fa-envelope, .fa-linkedin{                      /* this is for icons */
     color: rgb(225, 225, 225);           
     font-size: 32px;
 }
@@ -83,14 +83,10 @@ h3{
 }
 .facts-content{
     display: flex;
-    justify-content: space-between;
     width: 70%;
     margin: auto;
     padding-bottom: 40px;
     gap: 5%;
-}
-.facts-content div{
-    width: 300px;
 }
 .facts h2{
     margin: 0;
