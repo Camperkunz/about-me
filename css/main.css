@@ -87,6 +87,7 @@ h3{
     width: 70%;
     margin: auto;
     padding-bottom: 40px;
+    gap: 2%;
 }
 .skills-main h2{
     margin: 0;
@@ -104,8 +105,8 @@ h3{
 .skills-content div{
     width: 100%;
 }
-.web-development{
-    margin: 0 50px;
+.premier p, .web-development p, .art p{
+    min-height: 150px;
 }
 footer{
     display: flex;
